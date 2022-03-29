@@ -18740,7 +18740,7 @@ iframe {
 }
 
 .bg-holder.bg-right {
-  left: auto;
+  left: 0;
   right: 0;
 }
 
@@ -18953,7 +18953,7 @@ iframe {
 }
 
 .link-900 {
-  color: #5E6282 !important;
+  color: #bdbdbd !important;
 }
 
 .link-900:hover, .link-900:focus {
@@ -19296,7 +19296,11 @@ iframe {
 /*        Heading                        Background                               */
 /* -------------------------------------------------------------------------- */
 .footer-heading-color {
-  color: #080809;
+  color: #fff;
+}
+
+.bg-footer{
+  background-color: #0E1025;
 }
 
 .shadow-social {
@@ -19483,7 +19487,7 @@ iframe {
   font-family: "Volkhov", "DM Serif Display", cursive;
   font-weight: 700;
   font-size: 2.88651rem;
-  color: #181E4B;
+  color: #fff;
   margin-bottom: 5px;
   position: relative;
   z-index: 1;
@@ -19536,7 +19540,8 @@ iframe {
 }
 
 .hero-img {
-  width: 105%;
+  width: 65%;
+  margin-top: 3rem;
   margin-left: -5rem;
 }
 
