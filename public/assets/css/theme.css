@@ -19493,6 +19493,20 @@ iframe {
   z-index: 1;
 }
 
+.fa-question-circle{
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+  align-self: flex-end;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+@keyframes bounce-1 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-18px); }
+  100% { transform: translateY(0); }
+}
+
 @media (min-width: 1200px) {
   .hero-title {
     font-size: 4.62363rem;
