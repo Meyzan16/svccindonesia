@@ -36,6 +36,13 @@
   --bs-danger: #DF6951;
   --bs-light: #F0F4F9;
   --bs-dark: #212832;
+  /*color palette svcc2*/
+  --bs-merah: #B1285E;
+  --bs-kuning: #EB913F;
+  --bs-biru: #14859B;
+  --bs-ungu: #452652;
+  --bs-ungu-tua: #0E1025;
+  /*end of color palette svcc2*/
   --bs-font-sans-serif: "Poppins", "Rubik", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --bs-font-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 254, 254, 0.15), rgba(255, 254, 254, 0));
@@ -9711,6 +9718,90 @@ fieldset:disabled .btn {
 }
 
 /* rtl:end:remove */
+
+/*color paltte svcc2*/
+.text-merah{
+  color: #B1285E !important;
+}
+
+.btn-merah {
+  color: #FFFEFE;
+  background-color: #B1285E;
+  border-color: #B1285E;
+}
+
+.btn-merah:hover {
+  color: #FFFEFE;
+  background-color: #ff3477;
+  border-color: #ff3477;
+}
+
+.text-kuning{
+  color: #EB913F !important;
+}
+
+.btn-kuning {
+  color: #FFFEFE;
+  background-color: #EB913F;
+  border-color: #EB913F;
+}
+
+.btn-kuning:hover {
+  color: #FFFEFE;
+  background-color: #ffb066;
+  border-color: #ffb066;
+}
+
+
+.text-biru{
+  color: #14859B !important;
+}
+
+.btn-biru {
+  color: #FFFEFE;
+  background-color: #14859B;
+  border-color: #14859B;
+}
+
+.btn-biru:hover {
+  color: #FFFEFE;
+  background-color: #3cd3f1;
+  border-color: #3cd3f1;
+}
+
+.text-ungu{
+  color: #452652 !important;
+}
+
+.btn-ungu {
+  color: #FFFEFE;
+  background-color: #452652;
+  border-color: #452652;
+}
+
+.btn-ungu:hover {
+  color: #FFFEFE;
+  background-color: #744189;
+  border-color: #744189;
+}
+
+.text-ungu-tua{
+  color: #0E1025 !important;
+}
+
+.btn-ungu-tua {
+  color: #FFFEFE;
+  background-color: #0E1025;
+  border-color: #0E1025;
+}
+
+.btn-ungu-tua:hover {
+  color: #FFFEFE;
+  background-color: #0E1025;
+  border-color: #0E1025;
+}
+/*end of color paltte svcc2*/
+
 .text-primary {
   color: #F1A501 !important;
 }
